@@ -1,6 +1,7 @@
 require 'data_mapper'
 require 'dm-postgres-adapter'
 require 'dm-migrations'
+require 'sinatra'
 
 configure :test do
   DataMapper.setup(:default, "postgres://localhost/bookmark_manager_test")
