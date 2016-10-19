@@ -1,5 +1,5 @@
 require 'sinatra/base'
-require_relative 'models/link'
+require_relative 'app/models/link'
 
 class Bookmark < Sinatra::Base
 
