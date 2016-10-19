@@ -8,6 +8,9 @@ class Bookmark < Sinatra::Base
   DataMapper.finalize
   DataMapper.auto_upgrade!
 
+get '/' do
+  erb(:index)
+end
 
   get '/links' do
     @links = Link.all
