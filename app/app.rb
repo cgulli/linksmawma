@@ -1,6 +1,6 @@
 require 'sinatra/base'
 require_relative 'models/link'
-#random comment to test heroku stuff
+#random comment to test heroku stuff and git stuff because it is driving us mad
 class Bookmark < Sinatra::Base
 
   ENV['RACK_ENV'] ||= 'development'
