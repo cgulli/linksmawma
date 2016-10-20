@@ -1,5 +1,5 @@
 require 'spec_helper.rb'
-require 'database_cleaner'
+
 
 feature 'add links' do
   scenario 'adds links to the database' do
